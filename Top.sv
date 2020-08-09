@@ -278,6 +278,7 @@ Core Core(.reset(0), .clk(sys_clk), .*);
 
 PLL PLL(
 	.refclk(clk),
+	.rst(0),
 	.outclk_0(sys_clk),
 	.outclk_1(vga_clk)
 	);		
